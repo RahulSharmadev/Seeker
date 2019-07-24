@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #151419 !important;
+}
+.container{
+  margin-top: 7%;
+}
+h1{
+  margin-bottom: 50px !important;
+  color: #7b6124;
+}
+.button{
+  border: none;
+  width: 50px;
+  position: relative;
+  top: -50%;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0;
+}
+.col-md-4:hover .button{
+  opacity: 1;
+}
+.modal-content{
+  background: transparent !important;
+  border: none !important;
+}
+.own{
+  width: 350px;
+  height: 270px;
+}

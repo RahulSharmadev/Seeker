@@ -1,0 +1,37 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>E-Commer Website Gallary</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+
+  <body>
+
+   <div class="product">
+     <div class="product-small-img">
+
+       <img src="Images/01.jpg" onclick="myFunction(this)">
+       <img src="Images/02.jpg" onclick="myFunction(this)">
+       <img src="Images/03.jpg" onclick="myFunction(this)">
+       <img src="Images/04.jpg" onclick="myFunction(this)">
+       <img src="Images/05.jpg" onclick="myFunction(this)">
+
+
+      </div>
+      <div class="img-container">
+        <img id="imageBox" src="Images/06.jpg">
+      </div>
+    </div>
+
+    <script>
+      function myFunction(smallimg)
+      {
+        var fullImg = document.getElementById("imageBox");
+        fullImg.src = smallimg.src;
+      }
+    </script>
+
+  </body>
+
+</html>
